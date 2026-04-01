@@ -1,0 +1,17 @@
+{
+  "name": "ncert-scrapper",
+  "version": "1.0.0",
+  "description": "A tool to scrape NCERT books information",
+  "main": "scrape.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm scrape.ts"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
